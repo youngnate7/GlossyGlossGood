@@ -26,8 +26,13 @@ public class GlossaryEntry {
         return word;
     }
     public String toString(){
-        String a = word + numsList;
-        return a;
+        String a = "";
+        for(int i = 0; i < numsList.size(); i++){
+            int b = numsList.get(i);
+            a = a + " " + b;
+        }
+        String c = getWord()+ a;
+        return c;
     }
     public static void main(String[] args) {
         GlossaryEntry ge = new GlossaryEntry("Hello");
