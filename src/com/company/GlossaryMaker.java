@@ -18,7 +18,7 @@ public class GlossaryMaker
         // Open input file:
 
         if (args.length > 0)
-            fileName = args[0];
+            fileName = args[0];a
         else
         {
             System.out.print("\nEnter input file name: ");
